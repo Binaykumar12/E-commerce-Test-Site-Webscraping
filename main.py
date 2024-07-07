@@ -13,6 +13,6 @@ names = soup.find_all("a",class_ ="title")
 for i in names:
   print(i.text)
 
-prices = soup.finad_all ("h4",clas_ ="price float-end card-title pull-right")
+prices = soup.find_all ("h4",clas_ ="price float-end card-title pull-right")
 for i in prices:
    print(i.text)
